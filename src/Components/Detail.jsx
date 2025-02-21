@@ -33,7 +33,7 @@ const Detail = () => {
         ) : (
           <div>
             {mov && (
-              <div className="flex justify-between items-center px-40  mt-20 max-h-[700px]">
+              <div className="flex justify-between md:flex-col items-center px-40  mt-20 max-h-[700px]">
                 <div className='border-red-500 shadow-md shadow-red-500 border-2 bg-neutral-800 rounded-2xl'>
                   <img className='rounded-2xl' src={mov.Poster} alt={mov.title}/>
                 </div>
