@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+#bg{
+    
+    background-color: rgba(0, 0, 0, 0.938);
+    overflow: auto;
+}
+#bg::-webkit-scrollbar{
+    display: none;
+}
