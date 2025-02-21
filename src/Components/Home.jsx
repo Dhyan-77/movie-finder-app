@@ -57,7 +57,7 @@ const Home = () => {
                         onChange={(e) => setSearch(e.target.value)}
                         type='text'
                         placeholder='Enter your movie'
-                        className='w-96 px-4 py-2 relative top-5 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-red-600 bg-neutral-800 text-white placeholder-gray-400 mx-auto block'
+                        className='w-full sm:w-96 px-4 py-2 relative top-5 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-red-600 bg-neutral-800 text-white placeholder-gray-400 mx-auto block'
                     />
                 </form>
 
